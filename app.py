@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-YOUTUBE_API_KEY = "AIzaSyDaA8lQF5nBv4vIP7w7eB0HhdpaEvRryy8"
+YOUTUBE_API_KEY = "add your api"
 
 def get_youtube_videos(query):
     url = "https://www.googleapis.com/youtube/v3/search"
